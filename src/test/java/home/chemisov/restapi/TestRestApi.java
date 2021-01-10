@@ -21,6 +21,7 @@ public class TestRestApi {
         System.out.println("Status Code :" + rget.getStatusCode());
         System.out.println("Does Reponse contains 'GETS1 KARTOSH'? :" + rget.asString().contains("GETS1 KARTOSH"));
         assertEquals(200, rget.getStatusCode());
+
     }
 
     @Test
